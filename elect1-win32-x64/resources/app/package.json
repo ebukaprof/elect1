@@ -1,0 +1,22 @@
+{
+  "name": "elect1",
+  "version": "1.0.0",
+  "description": "Using electron to develop desktop app for navigation",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "package": "",
+    "build": "electron-packager . elect1"
+  },
+  "keywords": [
+    "desktop",
+    "navigation"
+  ],
+  "author": "Chukwuebuka <ebukaprof@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
+  }
+}
